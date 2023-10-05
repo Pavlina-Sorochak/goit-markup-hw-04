@@ -325,6 +325,11 @@ img {
 .link-icon:focus {
   background-color: #404bbf;
 }
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .icon-social {
   fill: #f4f4fd;
 }
