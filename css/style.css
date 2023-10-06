@@ -48,13 +48,7 @@ img {
 }
 .container-header {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1158px;
-  justify-content: center;
   align-items: center;
-  flex-shrink: 0;
-  margin: 0 auto;
 }
 .logo-web {
   color: #4d5ae5;
@@ -104,22 +98,18 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px;
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-right: 300px;
 }
 .page-nav .link {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .page-nav .current {
   position: relative;
@@ -148,13 +138,13 @@ img {
   margin-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address .link:hover,
-.address .link:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: #404bbf;
-  background-color: #404bbf;
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 /*Order Service*/
@@ -192,6 +182,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .button {
   color: #fff;
@@ -208,7 +199,7 @@ img {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-width: 169px;
   height: 56px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -335,10 +326,6 @@ img {
 }
 .team-list-about {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 8px;
-  align-items: center;
   padding: 32px 0;
 }
 .our-team-list .title {
@@ -467,7 +454,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
   margin-right: 76px;
 }
 .foot {
